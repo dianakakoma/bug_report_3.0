@@ -1,0 +1,11 @@
+@reports.map do |report| 
+  {
+  id: report.id,
+  name: report.name,
+  description: report.description,
+  suggested_fix: report.suggested_fix,
+  url: report.url,
+  status: report.status,
+  screenshot: report.screenshot
+}
+end
